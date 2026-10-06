@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="pre">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i="title">Moha – Enjoy the moment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@400;600;700;800&family=Lalezar&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <noscript><style>.pre body{visibility:visible}</style></noscript>
+</head>
+<body>
+
+<!-- shared drawings -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <symbol id="cup" viewBox="0 0 90 120">
+    <path d="M12 22h66l-8 92H20z" fill="#fff" opacity=".85"/>
+    <path d="M14 30h62l-3 40-6 44H23z" fill="#8a3d12"/>
+    <path d="M20 78c14-12 40-10 52 0l-4 36H24z" fill="#fff3e4"/>
+    <rect x="30" y="34" width="14" height="14" rx="3" fill="#e8e0d4" opacity=".7"/>
+    <rect x="52" y="44" width="14" height="14" rx="3" fill="#e8e0d4" opacity=".7"/>
+    <path d="M38 70l8-14 6 12-4 30H40z" fill="#f47320"/>
+    <ellipse cx="45" cy="22" rx="35" ry="7" fill="#fff"/>
+  </symbol>
+  <symbol id="wv" viewBox="0 0 1536 42" preserveAspectRatio="none">
+    <path d="M0 42V16C260 0 520 30 800 14S1300 4 1536 12V42z" fill="#fcf1e6"/>
+  </symbol>
+</defs></svg>
+
+<div class="wrap">
+
+  <!-- ============ HEADER ============ -->
+   <header id="hd">
+    <a class="logo" href="#home" aria-label="Moha"><img src="images/badge.png" alt="Moha"></a>
+    <button id="burger" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#home" data-nav="home" data-i="nav_home">HOME</a>
+      <a href="#menu" data-nav="menu" data-i="nav_menu">MENU</a>
+      <a href="#story" data-nav="story" data-i="nav_story">OUR STORY</a>
+      <a href="#locations" data-nav="locations" data-i="nav_loc">LOCATIONS</a>
+      <a href="#contact" data-nav="contact" data-i="nav_contact">CONTACT</a>
+      
+      <button class="l2" id="lang" type="button" aria-label="Change language">EN</button>
+    </nav>
+  </header> 
+
+  <!-- ============ HOME ============ -->
+  <main class="pg on" id="home">
+    <section class="hero" style="height: 550px;">
+      <div class="bl"></div><div class="gb"></div><div class="sun"></div>
+      <div class="h1">
+        <h1 data-i="h_1">ENJOY</h1>
+        <h1 class="p" data-i="h_2">THE MOMENT</h1>
+        <h1 class="l3" data-i="h_3">WITH MOHA!</h1>
+      </div>
+      <p class="sub" data-i="sub" style="margin-top:20px;" >Special drinks made with love to brighten your day.</p>
+      <a class="cta" href="#menu" data-i="cta" style="margin-top: 30px;">EXPLORE MENU</a>
+      <img class="hg" src="images/hold.png" alt="">
+      <svg class="hw" preserveAspectRatio="none" aria-hidden="true"><use href="#wv"/></svg>
+    </section>
+
+    <section class="pop">
+      <h2 data-i="pop_title">POPULAR DRINKS</h2>
+      <div class="cards" id="pc"></div>
+      <a class="vfm" href="#menu"><span data-i="view_menu">VIEW FULL MENU</span><span class="arr">→</span></a>
+    </section>
+
+    <section class="q">
+      <div class="gl"></div><div class="pl"></div>
+      <img class="g" src="images/hold.png" alt="">
+      <div class="t">
+        <h2><span data-i="q_1">QUALITY</span><span class="dk" data-i="q_2">IN EVERY CUP</span></h2>
+        <p data-i="q_p">We use the best ingredients to give you the best experience.</p>
+      </div>
+      <div class="feats">
+        <div class="f">
+          <div class="ic" style="background:var(--pu)"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 5-13 14-14 0 9-5 14-13 14z"/><path d="M5 19c3-5 6-8 10-10"/></svg></div>
+          <h4 data-i="f1a">PREMIUM<br>INGREDIENTS</h4>
+          <p data-i="f1b">Carefully selected<br>for the best taste.</p>
+        </div>
+        <div class="f">
+          <div class="ic" style="background:var(--pk)"><svg viewBox="0 0 24 24"><path d="M5 9h12v6a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5z"/><path d="M17 11h2a2 2 0 0 1 0 4h-2"/><path d="M9 3c0 2 2 2 2 4M13 3c0 2 2 2 2 4"/></svg></div>
+          <h4 data-i="f2a">MADE<br>FRESH</h4>
+          <p data-i="f2b">Prepared with love,<br>just for you.</p>
+        </div>
+        <div class="f">
+          <div class="ic" style="background:var(--gr)"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.500-7 10-7 10z"/></svg></div>
+          <h4 data-i="f3a">MADE WITH<br>LOVE</h4>
+          <p data-i="f3b">Because you<br>deserve the best.</p>
+        </div>
+        <div class="f">
+          <div class="ic" style="background:var(--or)"><svg viewBox="0 0 24 24"><path d="M12 21s-6-6-6-11a6 6 0 0 1 12 0c0 5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></svg></div>
+          <h4 data-i="f4a">MADE FOR<br>EVERYWHERE</h4>
+          <p data-i="f4b">From your favorite<br>corner to you.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ MENU ============ -->
+  <main class="pg" id="menu">
+    <div class="ph">
+      <h1><span data-i="menu_1">OUR</span> <span class="pk" data-i="menu_2">MENU</span></h1>
+      <p data-i="menu_sub">Drinks, sandwiches and sweet treats made with love.</p>
+      <svg class="hw" preserveAspectRatio="none" aria-hidden="true"><use href="#wv"/></svg>
+    </div>
+    <div class="sec">
+      <div class="tabs" id="tb">
+        <button type="button" class="on" data-c="all" data-i="tab_all">All</button>
+        <button type="button" data-c="iced" data-i="tab_iced">Iced</button>
+        <button type="button" data-c="hot" data-i="tab_hot">Hot</button>
+        <button type="button" data-c="sandwich" data-i="tab_sandwich">Sandwiches</button>
+        <button type="button" data-c="dessert" data-i="tab_dessert">Desserts</button>
+        <button type="button" data-c="waffle" data-i="tab_waffle">Waffles</button>
+      </div>
+      <div class="cards" id="mc"></div>
+    </div>
+  </main>
+
+  <!-- ============ STORY ============ -->
+  <main class="pg" id="story">
+    <div class="ph">
+      <h1><span data-i="story_1">OUR</span> <span class="pk" data-i="story_2">STORY</span></h1>
+      <p data-i="story_sub">One cup, one moment, one smile at a time.</p>
+      <svg class="hw" preserveAspectRatio="none" aria-hidden="true"><use href="#wv"/></svg>
+    </div>
+    <div class="sec">
+      <div class="two">
+        <div>
+          <h2 data-i="story_h">BREWED WITH LOVE</h2>
+          <p data-i="story_p1">Moha started with a simple idea: a good drink can turn an ordinary day into a happy one. From our first corner cart in Medinah, we have made every cup by hand.</p>
+          <p data-i="story_p2">We choose premium ingredients, prepare each drink fresh, and serve it with a smile, because you deserve the best.</p>
+        </div>
+        <div class="badge"><img src="images/badge.png" alt="Moha"></div>
+      </div>
+      <div class="vals">
+        <div><h3 data-i="v1h">PREMIUM INGREDIENTS</h3><p data-i="v1p">Carefully selected for the best taste.</p></div>
+        <div><h3 data-i="v2h">MADE FRESH</h3><p data-i="v2p">Prepared with love, just for you.</p></div>
+        <div><h3 data-i="v3h">FOR EVERYONE</h3><p data-i="v3p">From your favorite corner to you.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ LOCATIONS ============ -->
+  <main class="pg" id="locations">
+    <div class="ph">
+      <h1><span data-i="loc_1">OUR</span> <span class="pk" data-i="loc_2">LOCATIONS</span></h1>
+      <p data-i="loc_sub">Find a Moha near you.</p>
+      <svg class="hw" preserveAspectRatio="none" aria-hidden="true"><use href="#wv"/></svg>
+    </div>
+    <div class="sec">
+      <div class="map-frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d908.1672648757349!2d39.66054016957344!3d24.427562198638412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15bd95035aa6fccb%3A0xc0eded41e428fbdb!2z2YXZiNmH2Kcg2LPYqtmI2LEgfCBNb2hhIFN0b3Jl!5e0!3m2!1sen!2sus!4v1791130484936!5m2!1sen!2sus" title="Moha Store location on Google Maps" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ CONTACT ============ -->
+  <main class="pg" id="contact">
+    <div class="ph">
+      <h1><span data-i="ct_1">GET IN</span> <span class="pk" data-i="ct_2">TOUCH</span></h1>
+      <p data-i="ct_sub">Questions, feedback or catering? We'd love to hear from you.</p>
+      <svg class="hw" preserveAspectRatio="none" aria-hidden="true"><use href="#wv"/></svg>
+    </div>
+    <div class="sec narrow">
+      <form class="cf" id="cf" novalidate>
+        <input id="cn" type="text" data-ph="name" placeholder="Your name" aria-label="Name">
+        <input id="cp" type="tel" inputmode="tel" autocomplete="tel" data-ph="phone" placeholder="Your phone number" aria-label="Phone number">
+        <textarea id="cm" data-ph="msg" placeholder="Your message" aria-label="Message"></textarea>
+        <button type="submit" data-i="ct_btn">SEND MESSAGE</button>
+        <div class="note" id="fmsg" role="status"></div>
+      </form>
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="fb">
+      <img src="images/badge.png" alt="Moha">
+      <div>
+        <p data-i="ft_tag">Enjoy the moment with Moha. Special drinks made with love to brighten your day.</p>
+        <div class="soc">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M13 21v-8h2.500M13 13h-2m2 0V10c0-1.500.800-2 2-2h.800"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M11 8v7.500a2 2 0 1 1-2-2M11 8c.500 2 2 3 4 3"/></svg></a>
+          <a href="https://wa.me/966566585058" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24"><path d="M20.5 11.7a8.3 8.3 0 0 1-12.3 7.2L3 20l1.2-5A8.3 8.3 0 1 1 20.5 11.7Z"/><path d="M8.2 7.7c.3-.6.6-.6.9-.6h.5c.2 0 .4.1.5.4l.7 1.7c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4-.1.6.3.6.8 1.2 1.4 1.7.6.5 1.3.9 1.9 1 .2.1.4 0 .6-.2l.8-.9c.2-.2.4-.2.7-.1l1.6.8c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.5-.5.5-1.2.7-1.9.6-1.1-.2-2.4-.8-3.7-1.9-1.5-1.3-2.5-2.8-2.8-3.9-.3-.9-.1-1.7.3-2.2Z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h5 data-i="ft_ql">QUICK LINKS</h5>
+      <ul>
+        <li><a href="#home" data-i="ft_home">Home</a></li>
+        <li><a href="#menu" data-i="ft_menu">Menu</a></li>
+        <li><a href="#story" data-i="ft_story">Our Story</a></li>
+        <li><a href="#locations" data-i="ft_loc">Locations</a></li>
+        <li><a href="#contact" data-i="ft_contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5 data-i="ft_lh">LOCATIONS</h5>
+      <ul>
+        <li data-i="ft_l1">Mudhainib,Medinah</li>
+        <!-- <li data-i="ft_l4">Coming Soon...</li> -->
+      </ul>
+    </div>
+    <div>
+      <h5 data-i="ft_uh">GET OUR UPDATES ON WHATSAPP</h5>
+      <p data-i="ft_up">Subscribe to get updates on new drinks, offers and more!</p>
+   
+      <div class="note" id="smsg" role="status"></div>
+    </div>
+    <img class="ff" src="images/face.png" alt="">
+  </footer>
+  <div class="copy" data-i="copy">© 2024 MOHA STORE. ALL RIGHTS RESERVED.</div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
